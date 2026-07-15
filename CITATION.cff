@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use OAcquire in your research, please cite the paper (preferred-citation), not this software record."
+title: "OAcquire: A Multi-Source Corpus Acquisition Layer for Agentic Systematic Reviews"
+abstract: >-
+  OAcquire resolves bibliographic identifiers (DOI, PMID, PMCID) to legally
+  retrievable open-access full texts by cascading across seven independent
+  sources, validating each candidate document, and emitting an auditable
+  retrieval log suitable for PRISMA-compliant reporting. It exposes a typed
+  single-call interface for LLM agents and automated pipelines, a batch CLI,
+  and a browser-based interface for non-technical researchers.
+type: software
+version: 2.0.0
+date-released: 2026-07-12
+license: MIT
+repository-code: "https://github.com/pecesama/oacquire"
+url: "https://oacquire.streamlit.app"
+doi: "10.5281/zenodo.XXXXXXX"   
+authors:
+  - family-names: "Santana-Mancilla"
+    given-names: "Pedro C."
+    orcid: "https://orcid.org/0000-0002-4184-0116"   
+    affiliation: "IHCLab, Facultad de Telemática, Universidad de Colima"
+keywords:
+  - systematic review
+  - PRISMA
+  - open access
+  - research agents
+  - scholarly communication
+
+# Canonical citation. Aggregators (Zenodo, GitHub, OpenAIRE) will surface THIS
+# rather than the software record, which is what consolidates citation counts.
+preferred-citation:
+  type: article
+  title: "OAcquire: A Multi-Source Corpus Acquisition Layer for Agentic Systematic Reviews"
+  year: 2026
+  journal: "arXiv preprint"
+  # identifiers:
+  #   - type: other
+  #     value: "arXiv:2607.XXXXX"
+  authors:
+    - family-names: "Santana-Mancilla"
+      given-names: "Pedro C."
+      orcid: "https://orcid.org/0000-0002-4184-0116"

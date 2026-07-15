@@ -1,5 +1,5 @@
 """
-open_pdf_downloader — Streamlit UI
+OAcquire — Streamlit UI
 Provides a web interface for non-technical users.
 
 Run from the repo root:
@@ -21,11 +21,11 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 try:
-    from open_pdf_downloader import DownloadResult, build_session, retrieve_pdf, TOOL_VERSION
+    from oacquire import DownloadResult, build_session, retrieve_pdf, TOOL_VERSION
 except ImportError:
     st.error(
-        "Could not import `open_pdf_downloader`. "
-        "Make sure `open_pdf_downloader.py` is in the repo root and you are "
+        "Could not import `oacquire`. "
+        "Install it with `pip install -e .` from the repo root, or ensure the package is "
         "running this app from the repo root:\n\n"
         "```\nstreamlit run app/streamlit_app.py\n```"
     )
@@ -35,7 +35,7 @@ except ImportError:
 # Page config
 # ---------------------------------------------------------------------------
 st.set_page_config(
-    page_title="open_pdf_downloader",
+    page_title="OAcquire",
     page_icon="📄",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -321,7 +321,7 @@ with st.sidebar:
 # ---------------------------------------------------------------------------
 st.markdown(f"""
 <div class="app-header">
-    <h1>📄 open_pdf_downloader <span class="version-badge">v{TOOL_VERSION}</span></h1>
+    <h1>📄 OAcquire <span class="version-badge">v{TOOL_VERSION}</span></h1>
     <p>Retrieve open-access PDFs from multiple legal sources — no paywall bypassing.</p>
 </div>
 """, unsafe_allow_html=True)
@@ -533,7 +533,7 @@ if run_clicked and articles:
     with dl_col3:
         st.link_button(
             "⭐  View on GitHub",
-            url="https://github.com/pecesama/open_pdf_downloader",
+            url="https://github.com/pecesama/oacquire",
             use_container_width=True,
         )
 

@@ -1,0 +1,39 @@
+{
+  "upload_type": "software",
+  "title": "OAcquire: A Multi-Source Corpus Acquisition Layer for Agentic Systematic Reviews",
+  "description": "<p>OAcquire resolves bibliographic identifiers (DOI, PMID, PMCID) to legally retrievable open-access full texts by cascading across seven independent sources (PubMed Central, Europe PMC, Unpaywall, OpenAlex, Semantic Scholar, Crossref, and DOI landing-page scanning), validating every candidate document, and emitting an auditable retrieval log suitable for PRISMA-compliant reporting.</p><p>It exposes three interfaces: a typed single-call function for LLM agents and automated pipelines, a batch command-line interface for CSV workflows, and a browser-based application for non-technical researchers.</p><p>OAcquire does not circumvent paywalls. Retrieval is bounded by what is legitimately open access, and the tool is designed to measure exactly where that boundary falls.</p>",
+  "creators": [
+    {
+      "name": "Santana-Mancilla, Pedro C.",
+      "affiliation": "IHCLab, Facultad de Telematica, Universidad de Colima, Mexico",
+      "orcid": "0000-0002-4184-0116"
+    }
+  ],
+  "access_right": "open",
+  "license": "mit",
+  "language": "eng",
+  "keywords": [
+    "systematic review",
+    "PRISMA",
+    "open access",
+    "literature review",
+    "research agents",
+    "scholarly communication",
+    "retrieval-augmented generation",
+    "open science"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/pecesama/oacquire",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://oacquire.streamlit.app",
+      "relation": "isIdenticalTo",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Developed at IHCLab, Facultad de Telematica, Universidad de Colima."
+}
