@@ -1,2 +1,11 @@
-requests>=2.28.0
-urllib3>=1.26.0
+# OAcquire's dependencies are declared in pyproject.toml (PEP 621).
+# This file is kept for convenience and tooling that expects it.
+#
+# Recommended install:
+#     pip install oacquire          # from PyPI
+#     pip install -e ".[dev]"       # from a clone, with test tooling
+#     pip install -e ".[app]"       # from a clone, with the Streamlit UI
+#
+# The runtime dependencies below mirror [project.dependencies]:
+requests>=2.28
+urllib3>=1.26

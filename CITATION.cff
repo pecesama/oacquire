@@ -10,15 +10,15 @@ abstract: >-
   and a browser-based interface for non-technical researchers.
 type: software
 version: 2.0.0
-date-released: 2026-07-12
+date-released: 2026-07-15
 license: MIT
 repository-code: "https://github.com/pecesama/oacquire"
 url: "https://oacquire.streamlit.app"
-doi: "10.5281/zenodo.XXXXXXX"   
+doi: "10.5281/zenodo.21367806"
 authors:
   - family-names: "Santana-Mancilla"
     given-names: "Pedro C."
-    orcid: "https://orcid.org/0000-0002-4184-0116"   
+    orcid: "https://orcid.org/0000-0002-4184-0116"
     affiliation: "IHCLab, Facultad de Telemática, Universidad de Colima"
 keywords:
   - systematic review
@@ -33,7 +33,7 @@ preferred-citation:
   type: article
   title: "OAcquire: A Multi-Source Corpus Acquisition Layer for Agentic Systematic Reviews"
   year: 2026
-  journal: "arXiv preprint"
+  journal: "arXiv preprint"          # <- replace with JOSS on acceptance
   # identifiers:
   #   - type: other
   #     value: "arXiv:2607.XXXXX"

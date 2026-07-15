@@ -2,10 +2,9 @@
 
 **A Multi-Source Corpus Acquisition Layer for Agentic Systematic Reviews**
 
-[![CI](https://github.com/pecesama/oacquire/actions/workflows/ci.yml/badge.svg)](https://github.com/pecesama/oacquire/actions/workflows/ci.yml)
 [![PyPI](https://img.shields.io/pypi/v/oacquire.svg)](https://pypi.org/project/oacquire/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21367806.svg)](https://doi.org/10.5281/zenodo.21367806)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/pecesama/oacquire/blob/main/LICENSE)
 
 > **🌐 Try it in your browser — no installation:** **[oacquire.streamlit.app](https://oacquire.streamlit.app)**
 
@@ -224,7 +223,7 @@ If OAcquire contributes to work you publish, please cite the **paper**, not the 
 }
 ```
 
-For exact reproducibility, additionally cite the version you ran (e.g. *"retrieval performed with OAcquire v2.0.0, DOI 10.5281/zenodo.XXXXXXX"*). Run `oacquire --citation` to print the current canonical citation.
+For exact reproducibility, additionally cite the version you ran (e.g. *"retrieval performed with OAcquire v2.0.0, DOI 10.5281/zenodo.21367807"*). Run `oacquire --citation` to print the current canonical citation.
 
 ## Contributing
 

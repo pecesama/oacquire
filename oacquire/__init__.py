@@ -51,7 +51,7 @@ __license__ = "MIT"
 CITATION = (
     "Santana-Mancilla, P. C. (2026). OAcquire: A Multi-Source Corpus Acquisition "
     "Layer for Agentic Systematic Reviews. arXiv preprint. "
-    "Software archived at Zenodo, DOI: 10.5281/zenodo.XXXXXXX"
+    "Software archived at Zenodo, DOI: 10.5281/zenodo.21367807"
 )
 
 __all__ = [
