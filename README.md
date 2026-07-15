@@ -6,7 +6,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21367806.svg)](https://doi.org/10.5281/zenodo.21367806)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/pecesama/oacquire/blob/main/LICENSE)
 
-> **🌐 Try it in your browser — no installation:** **[oacquire.streamlit.app](https://oacquire.streamlit.app)**
+> **🌐 Try it in your browser — no installation:** **[openacquire.streamlit.app](https://openacquire.streamlit.app)**
 
 ---
 
@@ -195,7 +195,7 @@ This distinguishes *"no open-access version exists"* from *"an OA version exists
 
 ## Web interface
 
-For researchers who don't use a command line, the full pipeline is available in the browser at **[oacquire.streamlit.app](https://oacquire.streamlit.app)** — upload a CSV or paste DOIs, toggle sources, watch progress live, and download the PDFs as a ZIP plus the audit log as CSV.
+For researchers who don't use a command line, the full pipeline is available in the browser at **[openacquire.streamlit.app](https://openacquire.streamlit.app)** — upload a CSV or paste DOIs, toggle sources, watch progress live, and download the PDFs as a ZIP plus the audit log as CSV.
 
 To run it locally:
 
